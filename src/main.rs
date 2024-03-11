@@ -39,12 +39,10 @@ fn main() -> anyhow::Result<()> {
         .attr("value")
         .ok_or_else(|| anyhow::anyhow!("Failed to get secret value"))?;
 
-    let payload = format!("secret={secret}&eula=on");
-
     let res = client
         .post(location.join("/accept")?)
         .header("Content-Type", "application/x-www-form-urlencoded")
-        .body(payload)
+        .body(format!("secret={secret}&eula=on"))
         .send()?;
 
     if !res.status().is_redirection() {
