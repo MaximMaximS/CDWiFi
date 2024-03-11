@@ -101,7 +101,7 @@ checksum = "8cd6604a82acf3039f1144f54b8eb34e91ffba622051189e71b781822d5ee1f5"
 
 [[package]]
 name = "cdwifi"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anyhow",
  "reqwest",

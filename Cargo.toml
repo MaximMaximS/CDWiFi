@@ -1,6 +1,6 @@
 [package]
 name = "cdwifi"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["MaximMaximS"]
 license = "MIT-0"
@@ -8,7 +8,7 @@ description = " Simple login script for public WiFi in ČD trains"
 readme = "README.md"
 homepage = "https://github.com/MaximMaximS/cdwifi"
 repository = "https://github.com/MaximMaximS/cdwifi"
-categories = ["cli"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
