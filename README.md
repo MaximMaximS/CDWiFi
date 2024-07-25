@@ -1,2 +1,3 @@
 # CDWiFi
-Simple login script for public WiFi in ČD trains
+
+Simple login tool for public wifi in ČD trains

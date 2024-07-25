@@ -1,3 +1,5 @@
+//! Simple login tool for public wifi in ČD trains
+
 use reqwest::{blocking::Client, redirect::Policy, Url};
 use scraper::Html;
 use std::time::Duration;
