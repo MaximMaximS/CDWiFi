@@ -1,6 +1,6 @@
 [package]
 name = "cdwifi"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2024"
 authors = ["MaximMaximS"]
 license = "0BSD"
