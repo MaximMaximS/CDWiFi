@@ -10,7 +10,7 @@ fn main() -> anyhow::Result<()> {
         .timeout(Duration::from_secs(5))
         .build()?;
 
-    let res = client.get("http://www.example.com").send()?;
+    let res = client.get("http://1.1.1.1").send()?;
 
     let location = res.headers().get("Location");
 
